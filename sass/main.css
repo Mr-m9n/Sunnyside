@@ -120,7 +120,7 @@
   }
 }
 .panel1 .card--desc {
-  text-align: right;
+  text-align: center;
   padding-block: 2rem;
 }
 @media screen and (min-width: 720px) {

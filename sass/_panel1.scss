@@ -11,7 +11,7 @@
     }
 
     &--desc {
-      text-align: right;
+      text-align: center;
       padding-block: 2rem;
 
       @media screen and (min-width: 720px) {
@@ -55,8 +55,6 @@
 
       h3 {
         font-size: 2rem;
-        @media screen and (min-width: 720px) {
-        }
       }
     }
   }
