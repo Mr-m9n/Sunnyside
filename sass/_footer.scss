@@ -1,0 +1,58 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-block: 5rem;
+  background-color: var(--Dark-moderate-cyan);
+  &--logo {
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: var(--Dark-desaturated-cyan);
+    font-family: "Barlow", serif;
+    font-weight: bolder;
+  }
+  &--links {
+    margin-block: 5rem 8rem;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+
+    a {
+      color: var(--Dark-desaturated-cyan);
+      font-weight: lighter;
+      font-family: "Barlow", serif;
+    }
+  }
+
+  &--links {
+    .about:hover,
+    .services:hover,
+    .projects:hover {
+      @media screen and (min-width: 720px) {
+        color: var(--White);
+      }
+    }
+  }
+
+  &--media {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &--media {
+    .facebook:hover,
+    .instagram:hover,
+    .twitter:hover,
+    .pinterest:hover {
+      @media screen and (min-width: 720px) {
+        accent-color: var(--White);
+      }
+    }
+  }
+}
